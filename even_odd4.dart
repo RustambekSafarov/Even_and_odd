@@ -5,5 +5,5 @@ void main(){
     int y = ((var_int%100)~/10);
     int z = ((var_int~/100)%10);
     int c = (var_int~/1000);
-    print(((x%2)+(y%2)+(z%2)+(c%2)))
+    print(((1-x%2)+(1-y%2)+(1-z%2)+(1-c%2)));
 }
